@@ -1,0 +1,7 @@
+<% if params[:controller] == 'admin/general_settings' -%>
+<% if params[:action] == 'show' -%>
+<%= stylesheet_link_tag 'show_more_general_settings.css' %>
+<% elsif params[:action] == 'edit' %>
+<%= stylesheet_link_tag 'edit_more_general_settings.css' %>
+<% end -%>
+<% end -%>

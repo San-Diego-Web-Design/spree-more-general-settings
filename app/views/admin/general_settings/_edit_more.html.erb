@@ -1,48 +1,61 @@
-<p>
-  <label><%= t("business_name") %></label>
-  <%= text_field_tag('more_preferences[business_name]', Spree::MoreGeneralSettings::Config[:business_name]) %>
-</p>
-<p>
-  <label><%= t("name") %></label>
-  <%= text_field_tag('more_preferences[name]', Spree::MoreGeneralSettings::Config[:name]) %>
-</p>
-<p>
-  <label><%= t("address") %></label>
-  <%= text_field_tag('more_preferences[address]', Spree::MoreGeneralSettings::Config[:address]) %>
-</p>
-<p>
-  <label><%= t("city") %></label>
-  <%= text_field_tag('more_preferences[city]', Spree::MoreGeneralSettings::Config[:city]) %>
-</p>
-<p>
-  <label><%= t("state") %></label>
-  <%= text_field_tag('more_preferences[state]', Spree::MoreGeneralSettings::Config[:state]) %>
-</p>
-<p>
-  <label><%= t("zip") %></label>
-  <%= text_field_tag('more_preferences[zip]', Spree::MoreGeneralSettings::Config[:zip]) %>
-</p>
-<p>
-  <label><%= t("country") %></label>
-  <%= text_field_tag('more_preferences[country]', Spree::MoreGeneralSettings::Config[:country]) %>
-</p>
-<p>
-  <label><%= t("phone") %></label>
-  <%= text_field_tag('more_preferences[phone]', Spree::MoreGeneralSettings::Config[:phone]) %>
-</p>
-<p>
-  <label><%= t("cellphone") %></label>
-  <%= text_field_tag('more_preferences[cellphone]', Spree::MoreGeneralSettings::Config[:cellphone]) %>
-</p>
-<p>
-  <label><%= t("bank_name") %></label>
-  <%= text_field_tag('more_preferences[bank_name]', Spree::MoreGeneralSettings::Config[:bank_name]) %>
-</p>
-<p>
-  <label><%= t("bank_address") %></label>
-  <%= text_field_tag('more_preferences[bank_address]', Spree::MoreGeneralSettings::Config[:bank_address]) %>
-</p>
-<p>
-  <label><%= t("bank_account_id") %></label>
-  <%= text_field_tag('more_preferences[bank_account_id]', Spree::MoreGeneralSettings::Config[:bank_account_id]) %>
-</p>
+<div id="edit_more_general_settings">
+  <h4><%= t("account_settings") %></h4>
+  
+  <p>
+    <label><%= t("business_name") %></label>
+    <%= text_field_tag('more_preferences[business_name]', Spree::MoreGeneralSettings::Config[:business_name]) %>
+  </p>
+  <p>
+    <label><%= t("name") %></label>
+    <%= text_field_tag('more_preferences[name]', Spree::MoreGeneralSettings::Config[:name]) %>
+  </p>
+  <p>
+    <label><%= t("address") %></label>
+    <%= text_field_tag('more_preferences[address]', Spree::MoreGeneralSettings::Config[:address]) %>
+  </p>
+  <p>
+    <label><%= t("city") %></label>
+    <%= text_field_tag('more_preferences[city]', Spree::MoreGeneralSettings::Config[:city]) %>
+  </p>
+  <p>
+    <label><%= t("state") %></label>
+    <%= text_field_tag('more_preferences[state]', Spree::MoreGeneralSettings::Config[:state]) %>
+  </p>
+  <p>
+    <label><%= t("zip") %></label>
+    <%= text_field_tag('more_preferences[zip]', Spree::MoreGeneralSettings::Config[:zip]) %>
+  </p>
+  <p>
+    <label><%= t("country") %></label>
+    <%= text_field_tag('more_preferences[country]', Spree::MoreGeneralSettings::Config[:country]) %>
+  </p>
+  
+  <h4><%= t("phone_contact") %></h4>
+  
+  <p>
+    <label><%= t("phone") %></label>
+    <%= text_field_tag('more_preferences[phone]', Spree::MoreGeneralSettings::Config[:phone]) %>
+  </p>
+  <p>
+    <label><%= t("cellphone") %></label>
+    <%= text_field_tag('more_preferences[cellphone]', Spree::MoreGeneralSettings::Config[:cellphone]) %>
+  </p>
+  
+  <h4><%= t("bank_settings") %></h4>
+  
+  <p>
+    <label><%= t("bank_name") %></label>
+    <%= text_field_tag('more_preferences[bank_name]', Spree::MoreGeneralSettings::Config[:bank_name]) %>
+  </p>
+  <p>
+    <label><%= t("bank_address") %></label>
+    <%= text_field_tag('more_preferences[bank_address]', Spree::MoreGeneralSettings::Config[:bank_address]) %>
+  </p>
+  <p>
+    <label><%= t("bank_account_id") %></label>
+    <%= text_field_tag('more_preferences[bank_account_id]', Spree::MoreGeneralSettings::Config[:bank_account_id]) %>
+  </p>
+  
+</div>
+  
+<h4><%= t("spree_settings") %></h4>

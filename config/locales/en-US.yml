@@ -1,6 +1,10 @@
 en-US:
+  account_settings: "Account Settings"
   business_name: "Business Name"
+  phone_contact: "Phone Contact Settings"
   cellphone: "Cell Phone"
+  bank_settings: "Bank Account Settings"
   bank_name: "Bank Name"
   bank_address: "Bank Address"
   bank_account_id: "Bank Account ID"
+  spree_settings: "Spree Settings"

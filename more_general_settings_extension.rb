@@ -7,7 +7,6 @@ class MoreGeneralSettingsExtension < Spree::Extension
     Admin::GeneralSettingsController.class_eval do
       before_filter :update_more_general_settings, :only => :update
       def update_more_general_settings
-	logger.warn "test456 #{params[:more_preferences].inspect}"
         Spree::MoreGeneralSettings::Config.set(params[:more_preferences])
       end
     end
